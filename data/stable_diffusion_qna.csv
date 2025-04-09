@@ -1,0 +1,54 @@
+question,answer,source
+What is Stable Diffusion?,"Stable Diffusion AI is a latent diffusion model for generating AI images. The images can be photorealistic, like those captured by a camera, or artistic, as if produced by a professional artist.
+The best part is that it is free. You can run it on your PC, or you can use it online for a fee.
+I will talk about the options for using Stable Diffusion and Flux in the later part of this article. But if you can’t wait, grab the Quick Start Guide and dive right into it.",https://stable-diffusion-art.com/beginners-guide/
+How to use Stable Diffusion?,"All you need is a prompt that describes an image. For example:
+Stable Diffusion turns this prompt into images like the ones below.
+You can generate as many variations as you want from the same prompt.",https://stable-diffusion-art.com/beginners-guide/
+What’s the advantage of Stable Diffusion?,"There are similar text-to-image generation services like OpenAI’s DALLE and MidJourney. Why Stable Diffusion? The advantages of Stable Diffusion AI are
+- Open-source: Many enthusiasts have created free tools and models.
+- Designed for low-power computers: It’s free or cheap to run.",https://stable-diffusion-art.com/beginners-guide/
+Is Stable Diffusion AI Free?,Stable Diffusion is free to use when running on your own Windows or Mac machines. An online service will cost you a modest fee.,https://stable-diffusion-art.com/beginners-guide/
+I’m in! How do you start using Stable Diffusion and Flux AI?,"There are many ways to use Stable Diffusion and Flux AI models. You need to decide:
+- Run on your PC or use an online service?
+- Which GUI do you want to use?",https://stable-diffusion-art.com/beginners-guide/
+How to build a good prompt?,"There’s a lot to learn to craft a good prompt. But the basic is to describe your subject in as much detail as possible. Make sure to include powerful keywords to define the style.
+Using a prompt generator is a great way to learn a step-by-step process and important keywords. It is essential for beginners to learn a set of powerful keywords and their expected effects. This is like learning vocabulary for a new language. You can also find a short list of keywords and notes here.
+A shortcut to generating high-quality images is to reuse existing prompts. Head to the prompt collection, pick an image you like, and steal the prompt! The downside is that you may not understand why it generates high-quality images. Read the notes and change the prompt to see the effect.
+Alternatively, use image collection sites like PlaygroundAI. Pick an image you like and remix the prompt. But it could be like finding a needle in a haystack for a high-quality prompt.
+Treat the prompt as a starting point. Modify to suit your needs.",https://stable-diffusion-art.com/beginners-guide/
+"What are those parameters, and should I change them?","Most online generators allow you to change a limited set of parameters. Below are some important ones:
+- Image size : The size of the output image. The standard size is 512×512 pixels. Changing it to portrait or landscape size can have a big impact on the image. For example, use portrait size to generate a full-body image.
+- Sampling step s : Use at least 20 steps. Increase if you see a blurry image.
+- CFG scale : Typical value is 7. Increase if you want the image to follow the prompt more.
+- Seed value : -1 generates a random image. Specify a value if you want the same image.
+See recommendations for other settings.",https://stable-diffusion-art.com/beginners-guide/
+How many images should I generate?,"You should always generate multiple images when testing a prompt.
+I generate 2-4 images at a time when making big changes to the prompt so that I can speed up the search. I would generate 4 at a time when making small changes to increase the chance of seeing something usable.
+Some prompt only works half of the time or less. So don’t write off a prompt based on one image.",https://stable-diffusion-art.com/beginners-guide/
+What are custom models?,"The official models released by Stability AI and their partners are called base models. Some examples of base models are Stable Diffusion 1.4, 1.5, 2.0, and 2.1.
+Custom models are trained from the base models. Currently, most of the models are trained from v1.4 or v1.5. They are trained with additional data for generating images of particular styles or objects.
+Only the sky is the limit when it comes to custom models. It can be anime style, Disney style, or the style of another AI. You name it.
+Below is a comparison of 5 different models.
+It is also easy to merge two models to create a style in between.",https://stable-diffusion-art.com/beginners-guide/
+Which model should I use?,"Stick with the base models if you are starting out. There are pretty to learn and play with to keep you busy for months.
+The three main versions of Stable Diffusion are v1, v2, and Stable Diffusion XL (SDXL).
+- v1 models are 1.4 and 1.5.
+- v2 models are 2.0 and 2.1.
+- SDXL 1.0
+You may think you should start with the newer v2 models. People are still trying to figure out how to use the v2 models. Images from v2 are not necessarily better than v1’s.
+There were series of SDXL models released: SDXL beta, SDXL 0.9, and the latest SDXL 1.0.
+I recommend using the v1.5 and SDXL 1.0 models if you are new to Stable Diffusion.",https://stable-diffusion-art.com/beginners-guide/
+How to train a new model?,"An advantage of using Stable Diffusion is that you have total control of the model. You can create your own model with a unique style if you want. Two main ways to train models: (1) Dreambooth and (2) embedding.
+Dreambooth is considered more powerful because it fine-tunes the weight of the whole model. Embeddings leave the model untouched but find keywords to describe the new subject or style.
+You can experiment with the Colab notebook in the dreambooth article.",https://stable-diffusion-art.com/beginners-guide/
+How to make large prints with Stable Diffusion?,"Stable Diffusion’s native resolution is 512×512 pixels for v1 models. You should NOT generate images with width and height that deviates too much from 512 pixels. Use the following size settings to generate the initial image.
+- Landscape image: Set the height to 512 pixels. Set the width to higher, e.g. 768 pixels (2:3 aspect ratio)
+- Portrait image: Set the width to 512 pixels. Set the height to higher, e.g. 768 pixels (3:2 aspect ratio)
+If you set the initial width and height too high, you will see duplicate subjects.
+The next step is to upscale the image. The free AUTOMATIC1111 GUI comes with some popular AI upscalers.
+- Read this tutorial for a beginner’s guide to AI upscalers.
+- Read this tutorial for more advanced usage.",https://stable-diffusion-art.com/beginners-guide/
+How to control image composition?,Stable Diffusion technology is rapidly improving. There are a few ways.,https://stable-diffusion-art.com/beginners-guide/
+What is unstable diffusion?,"Unstable Diffusion is a company that develops Stable Diffusion models for AI porn. They made headlines when their Kickstarter fundraising campaign got shut down. So far, they have not released any models publicly.
+The company is not related to Stability AI, the company that released Stable Diffusion AI.",https://stable-diffusion-art.com/beginners-guide/

@@ -1,0 +1,758 @@
+source,title,chunk_id,source_type,content
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,0,faq,"Quick Start Open menu Absolute beginner Quick Start Guide Glossary
+
+Workflows Open menu ComfyUI workflows
+
+Want to learn Stable Diffusion AI? This beginner’s guide is for newbies with zero experience with Stable Diffusion, Flux, or other AI image generators. It will give you an overview of Stable Diffusion/Flux AI and where to start.
+
+This is the first part of the beginner’s guide series. Read part 2: Prompt building. Read part 3: Inpainting. Read part 4: Models.
+
+What’s the advantage of Stable Diffusion?
+
+I’m in! How do you start using Stable Diffusion and Flux AI? Online generators Run on your PC Advanced GUI
+
+What Can Stable Diffusion Do? 1. Generate images from text 2. Generate an image from an image 3. Photo Editing 4. Make videos
+
+2. Generate an image from an image
+
+Rules of thumb for building good prompts Be detailed and specific Use powerful keywords
+
+What are those parameters, and should I change them?
+
+How many images should I generate?"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,1,faq,"What are those parameters, and should I change them?
+
+How many images should I generate?
+
+Common ways to fix defects in images Face Restoration Fixing small artifacts with inpainting
+
+Fixing small artifacts with inpainting
+
+What are custom models? Which model should I use? How to train a new model?
+
+How to make large prints with Stable Diffusion?
+
+How to control image composition? Image-to-image ControlNet Regional prompting Depth-to-image
+
+Generating specific subjects Realistic people Animals
+
+What is Stable Diffusion?
+Stable Diffusion AI is a latent diffusion model for generating AI images. The images can be photorealistic, like those captured by a camera, or artistic, as if produced by a professional artist.
+
+What is Stable Diffusion?
+The best part is that it is free. You can run it on your PC, or you can use it online for a fee."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,2,faq,"What is Stable Diffusion?
+I will talk about the options for using Stable Diffusion and Flux in the later part of this article. But if you can’t wait, grab the Quick Start Guide and dive right into it.
+
+How to use Stable Diffusion?
+All you need is a prompt that describes an image. For example:
+
+How to use Stable Diffusion?
+gingerbread house, diorama, in focus, white background, toast, crunch cereal
+
+How to use Stable Diffusion?
+Stable Diffusion turns this prompt into images like the ones below.
+
+How to use Stable Diffusion?
+You can generate as many variations as you want from the same prompt.
+
+What’s the advantage of Stable Diffusion?
+There are similar text-to-image generation services like OpenAI’s DALLE and MidJourney. Why Stable Diffusion? The advantages of Stable Diffusion AI are
+
+What’s the advantage of Stable Diffusion?
+Open-source: Many enthusiasts have created free tools and models."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,3,faq,"What’s the advantage of Stable Diffusion?
+Designed for low-power computers: It’s free or cheap to run.
+
+Is Stable Diffusion AI Free?
+Stable Diffusion is free to use when running on your own Windows or Mac machines. An online service will cost you a modest fee.
+
+I’m in! How do you start using Stable Diffusion and Flux AI?
+There are many ways to use Stable Diffusion and Flux AI models. You need to decide:
+
+I’m in! How do you start using Stable Diffusion and Flux AI?
+Run on your PC or use an online service?
+
+Online generators
+For absolute beginners, I recommend using a free online generator. You can start generating without the hassle of setting things up.
+
+Online generators
+Generate a few images and see if AI image is your thing."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,4,faq,"Online generators
+Generate a few images and see if AI image is your thing.
+
+Run on your PC
+The best PC option is running Windows with an Nvidia GPU card. Most AI models are optimized for Nvidia GPUs. AMD GPUs are starting to get traction, but expect to jump through hoops to use them. The more VRAM your GPU has, the less trouble you will need to
+
+Run on your PC
+You need an Apple Silicon (M1/M2/M3/M4) to run on a Mac.
+
+Advanced GUI
+The downside of free online generators is that the functionalities are pretty limited.
+
+Advanced GUI
+Use an advanced GUI (Graphical User Interface) if you’ve outgrown them. A whole array of tools are at your disposal. To name a few:
+
+Advanced GUI
+Regenerate a small part of an image with Inpainting.
+
+Advanced GUI
+Generate images based on an input image ( Image-to-image )
+
+Advanced GUI
+Edit an image by giving an instruction.
+
+Advanced GUI
+Control the composition with a reference image ( ControlNet )"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,5,faq,"Advanced GUI
+Control the composition with a reference image ( ControlNet )
+
+Advanced GUI
+AUTOMATIC1111 – Easy to use, but development is lagging. Support Stable Diffusion only.
+
+Advanced GUI
+Forge – Derived from A1111. Support Stable Diffusion and Flux AI. Fast, but some A1111 extensions do not work.
+
+Advanced GUI
+ComfyUI – Steep learning curve. Support both Stable Diffusion and Flux.
+
+Advanced GUI
+See the Quick Start Guide for setting them up locally or on Google Colab.
+
+1. Generate images from text
+The most basic usage of Stable Diffusion is text-to-image (txt2img). Here are some examples of images you can generate with Stable Diffusion.
+
+1. Generate images from text
+Learn how to generate realistic people and realistic street humans.
+
+1. Generate images from text
+Take out the guesswork for becoming an AI artist. Learn Stable Diffusion step-by-step.
+
+2. Generate an image from an image
+Image-to-image (img2img) transforms one image to another using Stable Diffusion AI."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,6,faq,"2. Generate an image from an image
+Below is an example of transforming my drawing of an apple into a photo-realistic one. ( Tutorial )
+
+3. Photo Editing
+You can use inpainting to regenerate part of an AI or real image. This is the same as Photoshop’s new generative fill function, but free.
+
+4. Make videos
+There are two main ways to make videos with Stable Diffusion: (1) from a text prompt and (2) from another video.
+
+4. Make videos
+Deforum is a popular way to make a video from a text prompt. You have probably seen one of them on social media. It looks like this.
+
+4. Make videos
+The second way is to stylize a video using Stable Diffusion. See the video-to-video tutorial.
+
+4. Make videos
+This is a more advanced topic. It is best to master text-to-image and image-to-image before diving into it."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,7,faq,"How to build a good prompt?
+There’s a lot to learn to craft a good prompt. But the basic is to describe your subject in as much detail as possible. Make sure to include powerful keywords to define the style.
+
+How to build a good prompt?
+Using a prompt generator is a great way to learn a step-by-step process and important keywords. It is essential for beginners to learn a set of powerful keywords and their expected effects. This is like learning vocabulary for a new language. You can also find a short list of keywords and notes here.
+
+How to build a good prompt?
+A shortcut to generating high-quality images is to reuse existing prompts. Head to the prompt collection, pick an image you like, and steal the prompt! The downside is that you may not understand why it generates high-quality images. Read the notes and change the prompt to see the effect."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,8,faq,"How to build a good prompt?
+Alternatively, use image collection sites like PlaygroundAI. Pick an image you like and remix the prompt. But it could be like finding a needle in a haystack for a high-quality prompt.
+
+How to build a good prompt?
+Treat the prompt as a starting point. Modify to suit your needs.
+
+Rules of thumb for building good prompts
+Two rules: (1) Be detailed and specific, and (2) use powerful keywords.
+
+Be detailed and specific
+Although AI advances in leaps and bounds, Stable Diffusion still cannot read your mind. You need to describe your image in as much detail as possible.
+
+Be detailed and specific
+Let’s say you want to generate a picture of a woman in a street scene. A simplistic prompt
+
+Be detailed and specific
+Well, you may not want the generate a grandma, but this technically matches your prompt. You cannot blame Stable Diffusion…
+
+Be detailed and specific
+So instead, you should write more."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,9,faq,"Be detailed and specific
+So instead, you should write more.
+
+Be detailed and specific
+a young lady, brown eyes, highlights in hair, smile, wearing stylish business casual attire, sitting outside, quiet city street, rim lighting
+
+Be detailed and specific
+See the drastic difference. So work on your prompt-building skills!
+
+Use powerful keywords
+Some keywords are more powerful than others. Examples are
+
+Use powerful keywords
+Celebrity names (e.g. Emma Watson)
+
+Use powerful keywords
+Art medium (e.g. illustration, painting, photograph)
+
+Use powerful keywords
+Using them carefully can steer the image in the direction you want.
+
+Use powerful keywords
+You can learn more about prompt building and example keywords in the basics of building prompts.
+
+Use powerful keywords
+Want to cheat? Like doing homework, you can use ChatGPT to generate prompts!"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,10,faq,"Use powerful keywords
+Want to cheat? Like doing homework, you can use ChatGPT to generate prompts!
+
+What are those parameters, and should I change them?
+Most online generators allow you to change a limited set of parameters. Below are some important ones:
+
+What are those parameters, and should I change them?
+Image size : The size of the output image. The standard size is 512×512 pixels. Changing it to portrait or landscape size can have a big impact on the image. For example, use portrait size to generate a full-body image.
+
+What are those parameters, and should I change them?
+Sampling step s : Use at least 20 steps. Increase if you see a blurry image.
+
+What are those parameters, and should I change them?
+CFG scale : Typical value is 7. Increase if you want the image to follow the prompt more.
+
+What are those parameters, and should I change them?
+Seed value : -1 generates a random image. Specify a value if you want the same image."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,11,faq,"What are those parameters, and should I change them?
+See recommendations for other settings.
+
+How many images should I generate?
+You should always generate multiple images when testing a prompt.
+
+How many images should I generate?
+I generate 2-4 images at a time when making big changes to the prompt so that I can speed up the search. I would generate 4 at a time when making small changes to increase the chance of seeing something usable.
+
+How many images should I generate?
+Some prompt only works half of the time or less. So don’t write off a prompt based on one image.
+
+Common ways to fix defects in images
+When you see stunning AI images shared on social media, there’s a good chance they have undergone a series of post-processing steps. We will go over some of them in this section.
+
+Face Restoration
+It’s well-known in the AI artist community that Stable Diffusion is not good at generating faces. Very often, the faces generated have artifacts."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,12,faq,"Face Restoration
+We often use image AI models that are trained for restoring faces, for example, CodeFormer, which AUTOMATIC1111 GUI has built-in support. See how to turn it on.
+
+Face Restoration
+Do you know there’s an update to v1.4 and v1.5 models to fix eyes? Check out how to install a VAE.
+
+Fixing small artifacts with inpainting
+It is difficult to get the image you want on the first try. A better approach is to generate an image with good composition. Then repair the defects with inpainting.
+
+Fixing small artifacts with inpainting
+Below is an example of an image before and after inpainting. Using the original prompt for inpainting works 90% of the time.
+
+Fixing small artifacts with inpainting
+There are other techniques to fix things. Read more about fixing common issues.
+
+What are custom models?
+The official models released by Stability AI and their partners are called base models. Some examples of base models are Stable Diffusion 1.4, 1.5, 2.0, and 2.1."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,13,faq,"What are custom models?
+Custom models are trained from the base models. Currently, most of the models are trained from v1.4 or v1.5. They are trained with additional data for generating images of particular styles or objects.
+
+What are custom models?
+Only the sky is the limit when it comes to custom models. It can be anime style, Disney style, or the style of another AI. You name it.
+
+What are custom models?
+Below is a comparison of 5 different models.
+
+What are custom models?
+It is also easy to merge two models to create a style in between.
+
+Which model should I use?
+Stick with the base models if you are starting out. There are pretty to learn and play with to keep you busy for months.
+
+Which model should I use?
+The three main versions of Stable Diffusion are v1, v2, and Stable Diffusion XL (SDXL)."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,14,faq,"Which model should I use?
+You may think you should start with the newer v2 models. People are still trying to figure out how to use the v2 models. Images from v2 are not necessarily better than v1’s.
+
+Which model should I use?
+There were series of SDXL models released: SDXL beta, SDXL 0.9, and the latest SDXL 1.0.
+
+Which model should I use?
+I recommend using the v1.5 and SDXL 1.0 models if you are new to Stable Diffusion.
+
+How to train a new model?
+An advantage of using Stable Diffusion is that you have total control of the model. You can create your own model with a unique style if you want. Two main ways to train models: (1) Dreambooth and (2) embedding.
+
+How to train a new model?
+Dreambooth is considered more powerful because it fine-tunes the weight of the whole model. Embeddings leave the model untouched but find keywords to describe the new subject or style.
+
+How to train a new model?
+You can experiment with the Colab notebook in the dreambooth article."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,15,faq,"How to train a new model?
+You can experiment with the Colab notebook in the dreambooth article.
+
+Negative prompts
+You put what you want to see in the prompt. You put what you don’t want to see in the negative prompt. Not all Stable Diffusion services support negative prompts. But it is valuable for v1 models and a must for v2 models. It doesn’t hurt for a beginner to use a universal negative prompt. Read more about negative prompts:
+
+How to make large prints with Stable Diffusion?
+Stable Diffusion’s native resolution is 512×512 pixels for v1 models. You should NOT generate images with width and height that deviates too much from 512 pixels. Use the following size settings to generate the initial image.
+
+How to make large prints with Stable Diffusion?
+Landscape image: Set the height to 512 pixels. Set the width to higher, e.g. 768 pixels (2:3 aspect ratio)"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,16,faq,"How to make large prints with Stable Diffusion?
+Portrait image: Set the width to 512 pixels. Set the height to higher, e.g. 768 pixels (3:2 aspect ratio)
+
+How to make large prints with Stable Diffusion?
+If you set the initial width and height too high, you will see duplicate subjects.
+
+How to make large prints with Stable Diffusion?
+The next step is to upscale the image. The free AUTOMATIC1111 GUI comes with some popular AI upscalers.
+
+How to make large prints with Stable Diffusion?
+Read this tutorial for a beginner’s guide to AI upscalers.
+
+How to make large prints with Stable Diffusion?
+Read this tutorial for more advanced usage.
+
+How to control image composition?
+Stable Diffusion technology is rapidly improving. There are a few ways."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,17,faq,"Image-to-image
+You can ask Stable Diffusion to roughly follow an input image when generating a new one. It’s called image-to-image. Below is an example of using an input image of an eagle to generate a dragon. The composition of the output image follows the input.
+
+ControlNet
+ControlNet similarly uses an input image to direct the output. But it can extract specific information, for example, human poses. Below is an example of using ControlNet to copy a human pose from the input image.
+
+ControlNet
+In addition to human poses, ControlNet can extract other information, such as outlines.
+
+Regional prompting
+You can specify prompts for certain parts of images using an extension called Regional Prompter. This technique is very helpful for drawing objects only in certain parts of the image.
+
+Regional prompting
+Below is an example of placing a wolf at the bottom left corner and skulls at the bottom right corner.
+
+Regional prompting
+Read the Regional Prompter tutorial to learn more to use it."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,18,faq,"Regional prompting
+Read the Regional Prompter tutorial to learn more to use it.
+
+Depth-to-image
+Depth-to-image is another way to control composition through an input image. It can detect the foreground and the background of the input image. The output image will follow the same foreground and background. Below is an example.
+
+Realistic people
+You can use Stable Diffusion to generate photo-style realistic people. Let’s see some samples.
+
+Realistic people
+It comes down to using the right prompt and special model trained to produce photo-style realistic humans. Learn more in the tutorial for generating realistic people.
+
+Animals
+Animals are popular subjects among Stable Diffusion users.
+
+Animals
+Read the tutorial for generating animals to learn how to."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,19,faq,"Animals
+Read the tutorial for generating animals to learn how to.
+
+What is unstable diffusion?
+Unstable Diffusion is a company that develops Stable Diffusion models for AI porn. They made headlines when their Kickstarter fundraising campaign got shut down. So far, they have not released any models publicly.
+
+What is unstable diffusion?
+The company is not related to Stability AI, the company that released Stable Diffusion AI.
+
+Next Step
+So, you have completed the first tutorial of the Beginner’s Guide!
+
+Next Step
+Check out the Stable Diffusion Course for a step-by-step guided course.
+
+Next Step
+This is part 1 of the beginner’s guide series. Read part 2: Prompt building. Read part 3: Inpainting. Read part 4: Models.
+
+By Andrew
+Andrew is an experienced software engineer with a specialization in Machine Learning and Artificial Intelligence. He is passionate about programming, art, and education. He has a doctorate degree in engineering."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,20,faq,"63 comments
+Hruday Nandan Tudu says: January 5, 2025 at 10:18 am I want to create AI generated poster ad. for that I need to add the product picture in the ad. I want to use stable diffusion to integrate a exact copy of an object in the ai generated image. How do I do that? Please help me. Reply Andrew says: January 5, 2025 at 3:46 pm This quick tutorial may help: https://stable-diffusion-art.com/change-background/ More details in my course. Reply
+
+63 comments
+I want to create AI generated poster ad. for that I need to add the product picture in the ad. I want to use stable diffusion to integrate a exact copy of an object in the ai generated image. How do I do that? Please help me.
+
+63 comments
+Andrew says: January 5, 2025 at 3:46 pm This quick tutorial may help: https://stable-diffusion-art.com/change-background/ More details in my course. Reply
+
+63 comments
+This quick tutorial may help: https://stable-diffusion-art.com/change-background/"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,21,faq,"63 comments
+This quick tutorial may help: https://stable-diffusion-art.com/change-background/
+
+63 comments
+Mar says: December 20, 2024 at 8:49 pm Hello, I encountered an error when running it. This is the error: ImportError: cannot import name ‘computed_field’ from ‘pydantic’ (/usr/local/lib/python3.10/dist-packages/pydantic/__init__.cpython-310-x86_64-linux-gnu.so) how do I get around this? Thank you Reply Andrew says: December 24, 2024 at 7:24 am Follow the link in the post or quick start guide to get the new notebook. Reply
+
+63 comments
+Hello, I encountered an error when running it. This is the error:
+
+63 comments
+ImportError: cannot import name ‘computed_field’ from ‘pydantic’ (/usr/local/lib/python3.10/dist-packages/pydantic/__init__.cpython-310-x86_64-linux-gnu.so)
+
+63 comments
+how do I get around this? Thank you
+
+63 comments
+Andrew says: December 24, 2024 at 7:24 am Follow the link in the post or quick start guide to get the new notebook. Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,22,faq,"63 comments
+Follow the link in the post or quick start guide to get the new notebook.
+
+63 comments
+sal says: December 19, 2024 at 4:10 pm Hello, it gives me this error, what’s wrong? ImportError: cannot import name ‘computed_field’ from ‘pydantic’ (/usr/local/lib/python3.10/dist-packages/pydantic/__init__.cpython-310-x86_64-linux-gnu.so) Reply Andrew says: December 19, 2024 at 8:19 pm fixed. Reply John says: December 20, 2024 at 9:51 pm hello, it’s still not working for me. I still have the same problem Reply Mar says: December 20, 2024 at 10:08 pm It’s working now, thank you Reply
+
+63 comments
+Hello, it gives me this error, what’s wrong?
+
+63 comments
+ImportError: cannot import name ‘computed_field’ from ‘pydantic’ (/usr/local/lib/python3.10/dist-packages/pydantic/__init__.cpython-310-x86_64-linux-gnu.so)"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,23,faq,"63 comments
+Andrew says: December 19, 2024 at 8:19 pm fixed. Reply John says: December 20, 2024 at 9:51 pm hello, it’s still not working for me. I still have the same problem Reply Mar says: December 20, 2024 at 10:08 pm It’s working now, thank you Reply
+
+63 comments
+John says: December 20, 2024 at 9:51 pm hello, it’s still not working for me. I still have the same problem Reply
+
+63 comments
+hello, it’s still not working for me. I still have the same problem
+
+63 comments
+Mar says: December 20, 2024 at 10:08 pm It’s working now, thank you Reply
+
+63 comments
+Jesmar says: December 7, 2024 at 9:02 pm Hello, it’s not working and I get an error when running it Reply Zandebar says: December 12, 2024 at 7:47 am Please explain what you are doing and how you are doing it, saying it’s not working doesn’t help. Reply
+
+63 comments
+Hello, it’s not working and I get an error when running it"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,24,faq,"63 comments
+Hello, it’s not working and I get an error when running it
+
+63 comments
+Zandebar says: December 12, 2024 at 7:47 am Please explain what you are doing and how you are doing it, saying it’s not working doesn’t help. Reply
+
+63 comments
+Please explain what you are doing and how you are doing it, saying it’s not working doesn’t help."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,25,faq,"63 comments
+Joseph says: October 3, 2024 at 9:06 am Hi, is there any way to fix the Openpose editor? Reply Andrew says: October 4, 2024 at 6:40 am This one should be working https://github.com/huchenlei/sd-webui-openpose-editor Reply Joseph says: October 23, 2024 at 9:53 am i pasted the url from github under “Install extensions from URL” text bar, but it’s still not working. Am I doing it right or there’s another way? Reply Andrew says: October 24, 2024 at 7:01 am I updated the checkbox to openpose_editor. You can use the checkbox to load it. You can only see the butttons after using openpose controlnet to preview the preprocessor. Reply Joseph says: December 7, 2024 at 9:14 pm May I ask how do I do this?
+
+63 comments
+Hi, is there any way to fix the Openpose editor?"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,26,faq,"63 comments
+Hi, is there any way to fix the Openpose editor?
+
+63 comments
+Andrew says: October 4, 2024 at 6:40 am This one should be working https://github.com/huchenlei/sd-webui-openpose-editor Reply Joseph says: October 23, 2024 at 9:53 am i pasted the url from github under “Install extensions from URL” text bar, but it’s still not working. Am I doing it right or there’s another way? Reply Andrew says: October 24, 2024 at 7:01 am I updated the checkbox to openpose_editor. You can use the checkbox to load it. You can only see the butttons after using openpose controlnet to preview the preprocessor. Reply Joseph says: December 7, 2024 at 9:14 pm May I ask how do I do this?
+
+63 comments
+This one should be working https://github.com/huchenlei/sd-webui-openpose-editor"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,27,faq,"63 comments
+This one should be working https://github.com/huchenlei/sd-webui-openpose-editor
+
+63 comments
+Joseph says: October 23, 2024 at 9:53 am i pasted the url from github under “Install extensions from URL” text bar, but it’s still not working. Am I doing it right or there’s another way? Reply Andrew says: October 24, 2024 at 7:01 am I updated the checkbox to openpose_editor. You can use the checkbox to load it. You can only see the butttons after using openpose controlnet to preview the preprocessor. Reply Joseph says: December 7, 2024 at 9:14 pm May I ask how do I do this?
+
+63 comments
+i pasted the url from github under “Install extensions from URL” text bar, but it’s still not working. Am I doing it right or there’s another way?"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,28,faq,"63 comments
+Andrew says: October 24, 2024 at 7:01 am I updated the checkbox to openpose_editor. You can use the checkbox to load it. You can only see the butttons after using openpose controlnet to preview the preprocessor. Reply Joseph says: December 7, 2024 at 9:14 pm May I ask how do I do this?
+
+63 comments
+I updated the checkbox to openpose_editor. You can use the checkbox to load it. You can only see the butttons after using openpose controlnet to preview the preprocessor.
+
+63 comments
+Joseph says: December 7, 2024 at 9:14 pm May I ask how do I do this?
+
+63 comments
+Ed Mellnik says: September 22, 2024 at 9:55 pm 512 x 512 seens pretty limited. Most useful images I work with have an aspect ratio of 16 x 9 and a resolution of 1920 x 1080. ??? Reply Andrew says: September 25, 2024 at 6:46 am SDXL and Flux has native resolution of 1024×1024. You can first generate an image with 1344 x 768, and upscale it to higher resolution if needed. Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,29,faq,"63 comments
+512 x 512 seens pretty limited. Most useful images I work with have an aspect ratio of 16 x 9 and a resolution of 1920 x 1080. ???
+
+63 comments
+Andrew says: September 25, 2024 at 6:46 am SDXL and Flux has native resolution of 1024×1024. You can first generate an image with 1344 x 768, and upscale it to higher resolution if needed. Reply
+
+63 comments
+SDXL and Flux has native resolution of 1024×1024. You can first generate an image with 1344 x 768, and upscale it to higher resolution if needed.
+
+63 comments
+Anon Johnson says: May 18, 2024 at 4:50 am Are there any guides to using Open Stable Diffusion on Android? This thing doesn’t seem to have any user manual at all. This is taking a long time to figure out. ^_^ Reply Andrew says: May 19, 2024 at 8:04 am Sorry I dont. Reply
+
+63 comments
+Are there any guides to using Open Stable Diffusion on Android? This thing doesn’t seem to have any user manual at all. This is taking a long time to figure out. ^_^"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,30,faq,"63 comments
+Andrew says: May 19, 2024 at 8:04 am Sorry I dont. Reply
+
+63 comments
+Best AI Design Tools says: March 28, 2024 at 11:38 am This blog provides an insightful and straightforward exploration into the intriguing world of stable diffusion art. From breaking down the concept to offering a comprehensive guide on the process, this post is packed with invaluable information on this unique artistic technique. The inclusion of step-by-step advice and illustrative examples enriches the reader’s understanding. Fantastic article – please continue to share more like this Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,31,faq,"63 comments
+This blog provides an insightful and straightforward exploration into the intriguing world of stable diffusion art. From breaking down the concept to offering a comprehensive guide on the process, this post is packed with invaluable information on this unique artistic technique. The inclusion of step-by-step advice and illustrative examples enriches the reader’s understanding. Fantastic article – please continue to share more like this"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,32,faq,63 comments
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,33,faq,"james Trumper says: March 17, 2024 at 11:32 pm Before today I never heard of Stable Diffusion Art or prompts or models or well frankly none of this. I had no clue it existed. I mean I knew there was some kinda AI software or program that could generate images and what not but thought that to be reserved for the tech companies and engineers that created it, not for the general public for free. Thanks to this article for true beginners like myself I now not only found out about it but learned and understood what it was all about, how to begin using and creating AI art by myself and “I plan to take over the world!” as the brain would say. Thanks so much for the hard work you put into this article for all of us. I’ll see ya on the other side Reply Andrew says: March 18, 2024 at 5:25 pm You are welcome! Leave a message if you have any questions"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,34,faq,". Reply Joseph says: August 19, 2024 at 10:37 am Hi! Is there any way to restore openpose editor extension? It seems to be not working Reply Todd says: March 28, 2025 at 4:19 pm Hi Andrew, I’ve just started with SD and I have to say, your guides have been so helpful and easy to understand. I really appreciate your work. Thank you. Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,35,faq,"63 comments
+Before today I never heard of Stable Diffusion Art or prompts or models or well frankly none of this. I had no clue it existed. I mean I knew there was some kinda AI software or program that could generate images and what not but thought that to be reserved for the tech companies and engineers that created it, not for the general public for free. Thanks to this article for true beginners like myself I now not only found out about it but learned and understood what it was all about, how to begin using and creating AI art by myself and “I plan to take over the world!” as the brain would say. Thanks so much for the hard work you put into this article for all of us. I’ll see ya on the other side"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,36,faq,"63 comments
+Andrew says: March 18, 2024 at 5:25 pm You are welcome! Leave a message if you have any questions. Reply Joseph says: August 19, 2024 at 10:37 am Hi! Is there any way to restore openpose editor extension? It seems to be not working Reply Todd says: March 28, 2025 at 4:19 pm Hi Andrew, I’ve just started with SD and I have to say, your guides have been so helpful and easy to understand. I really appreciate your work. Thank you. Reply
+
+63 comments
+You are welcome! Leave a message if you have any questions.
+
+63 comments
+Joseph says: August 19, 2024 at 10:37 am Hi! Is there any way to restore openpose editor extension? It seems to be not working Reply
+
+63 comments
+Hi! Is there any way to restore openpose editor extension? It seems to be not working
+
+63 comments
+Todd says: March 28, 2025 at 4:19 pm Hi Andrew, I’ve just started with SD and I have to say, your guides have been so helpful and easy to understand. I really appreciate your work. Thank you. Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,37,faq,"63 comments
+Hi Andrew, I’ve just started with SD and I have to say, your guides have been so helpful and easy to understand. I really appreciate your work. Thank you.
+
+63 comments
+ducpham says: January 30, 2024 at 4:59 am Nice tutorial for beginners Reply
+
+63 comments
+I. Leremord says: January 19, 2024 at 8:11 am Your site is a goldmine : thank you so much. Reply
+
+63 comments
+Your site is a goldmine : thank you so much.
+
+63 comments
+Havanyani says: January 8, 2024 at 7:18 am Nice, gentle introduction. Thanks Reply
+
+63 comments
+Nice, gentle introduction. Thanks
+
+63 comments
+Ivan says: January 3, 2024 at 9:43 am Nice tutorial for beginners, but as I can see – you have to have a good nVidia video card on the board. So, I’ve decided to make Simple Stable Diffusion Cloud with API here https://stdiff.io. Only starting tbh, so would be gratful if you leave some feedback here, thank you! Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,38,faq,"63 comments
+Nice tutorial for beginners, but as I can see – you have to have a good nVidia video card on the board. So, I’ve decided to make Simple Stable Diffusion Cloud with API here https://stdiff.io. Only starting tbh, so would be gratful if you leave some feedback here, thank you!
+
+63 comments
+Frazer says: December 11, 2023 at 10:36 am Cheers, very helpful guide for a noob, I didn’t realise what prompts were, so was just typing in paragraphs. Such a boomer 🙂 Reply
+
+63 comments
+Cheers, very helpful guide for a noob, I didn’t realise what prompts were, so was just typing in paragraphs. Such a boomer 🙂
+
+63 comments
+Ovni says: November 26, 2023 at 5:47 pm Alienigena fumando en su platillo volante pintura digital, hiperrealista, fantasía, surrealista Reply
+
+63 comments
+Alienigena fumando en su platillo volante pintura digital, hiperrealista, fantasía, surrealista"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,39,faq,"63 comments
+Jo says: November 25, 2023 at 12:28 pm What’s the “free online generator above”? I do not see any generator or place to write prompts, on this page. Was it removed? Reply Andrew says: November 25, 2023 at 5:01 pm Yes it was removed. Please go to the free generator page. The first one is similar to what I had. Reply
+
+63 comments
+What’s the “free online generator above”? I do not see any generator or place to write prompts, on this page. Was it removed?
+
+63 comments
+Andrew says: November 25, 2023 at 5:01 pm Yes it was removed. Please go to the free generator page. The first one is similar to what I had. Reply
+
+63 comments
+Yes it was removed. Please go to the free generator page. The first one is similar to what I had."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,40,faq,"63 comments
+stephen says: September 29, 2023 at 5:26 pm No matter what you put in the prompt there’s an error and it says the prompt includes NSFW words Reply Andrew says: September 29, 2023 at 7:41 pm Thanks for reporting. it’s not working consistently. I have temporarily removed it. Reply
+
+63 comments
+No matter what you put in the prompt there’s an error and it says the prompt includes NSFW words
+
+63 comments
+Andrew says: September 29, 2023 at 7:41 pm Thanks for reporting. it’s not working consistently. I have temporarily removed it. Reply
+
+63 comments
+Thanks for reporting. it’s not working consistently. I have temporarily removed it.
+
+63 comments
+Claudio Malagrino says: September 9, 2023 at 9:19 pm Hi. After some failing Udemy courses I found your website, and in a few hours, I have SD Automatic111 up and running on my machine! I still have so much to learn, and I will dig more into your website tomorrow. Thank you very much! Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,41,faq,"63 comments
+Hi. After some failing Udemy courses I found your website, and in a few hours, I have SD Automatic111 up and running on my machine! I still have so much to learn, and I will dig more into your website tomorrow. Thank you very much!"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,42,faq,63 comments
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,43,faq,"Tru says: September 7, 2023 at 7:41 am Andrew, I have mine set to update automatically on start (that box is checked). I noticed the update several days ago because all of a sudden it seems to be using a 3rd party Face Restore. But how would I revert to a prior version? I know nothing about git pulls or coding. Thanks for replying, btw. Reply Tru says: September 7, 2023 at 8:28 am Btw, I installed the latest NVIDIA studio driver, and that seems to have fixed the OOM errors, but now the second and subsequent generations are paaaaaaainfully slow, while the first takes only the usual two minutes or so. This seems spontaneous and I’m not sure what’s causing the slowness. Reply Andrew says: September 7, 2023 at 9:07 pm If you are using A1111: https://stable-diffusion-art"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,44,faq,".com/install-windows/#Reverting_back_to_a_previous_version Reply Tru says: September 8, 2023 at 4:00 pm Well, I actually tried three previous versions, as well as some driver upgrades/reversions, but that does not seem to have been the issue. The second (and subsequent) generations are exponentially slower than the first, and despite my best efforts, I cannot sort out the problem. folks with much more powerful cards have been reporting this issue as well, so it’s very strange. Thank you for your replies, though I think I’m out of options other than going to a paid site. A new rig is out of the question. Reply ZeroKewl says: January 7, 2024 at 4:09 pm I recommend using MiniConda to create environments. This isolates changes made in one environment to that environment. Whenever I start something new, like ComfyUI, StableDiffusion, Automatic1111, I install it and then create the requirements file. If the environment tanks, I can recreate the original state from the requirements file"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,45,faq,". If the environment tanks, I can recreate the original state from the requirements file. Note: I could “copy” the env, but they can be quite large. Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,46,faq,"63 comments
+Andrew, I have mine set to update automatically on start (that box is checked). I noticed the update several days ago because all of a sudden it seems to be using a 3rd party Face Restore. But how would I revert to a prior version? I know nothing about git pulls or coding. Thanks for replying, btw.
+
+63 comments
+Tru says: September 7, 2023 at 8:28 am Btw, I installed the latest NVIDIA studio driver, and that seems to have fixed the OOM errors, but now the second and subsequent generations are paaaaaaainfully slow, while the first takes only the usual two minutes or so. This seems spontaneous and I’m not sure what’s causing the slowness. Reply
+
+63 comments
+Btw, I installed the latest NVIDIA studio driver, and that seems to have fixed the OOM errors, but now the second and subsequent generations are paaaaaaainfully slow, while the first takes only the usual two minutes or so. This seems spontaneous and I’m not sure what’s causing the slowness."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,47,faq,63 comments
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,48,faq,"Andrew says: September 7, 2023 at 9:07 pm If you are using A1111: https://stable-diffusion-art.com/install-windows/#Reverting_back_to_a_previous_version Reply Tru says: September 8, 2023 at 4:00 pm Well, I actually tried three previous versions, as well as some driver upgrades/reversions, but that does not seem to have been the issue. The second (and subsequent) generations are exponentially slower than the first, and despite my best efforts, I cannot sort out the problem. folks with much more powerful cards have been reporting this issue as well, so it’s very strange. Thank you for your replies, though I think I’m out of options other than going to a paid site. A new rig is out of the question. Reply ZeroKewl says: January 7, 2024 at 4:09 pm I recommend using MiniConda to create environments. This isolates changes made in one environment to that environment"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,49,faq,". This isolates changes made in one environment to that environment. Whenever I start something new, like ComfyUI, StableDiffusion, Automatic1111, I install it and then create the requirements file. If the environment tanks, I can recreate the original state from the requirements file. Note: I could “copy” the env, but they can be quite large. Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,50,faq,"63 comments
+If you are using A1111: https://stable-diffusion-art.com/install-windows/#Reverting_back_to_a_previous_version"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,51,faq,63 comments
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,52,faq,"Tru says: September 8, 2023 at 4:00 pm Well, I actually tried three previous versions, as well as some driver upgrades/reversions, but that does not seem to have been the issue. The second (and subsequent) generations are exponentially slower than the first, and despite my best efforts, I cannot sort out the problem. folks with much more powerful cards have been reporting this issue as well, so it’s very strange. Thank you for your replies, though I think I’m out of options other than going to a paid site. A new rig is out of the question. Reply ZeroKewl says: January 7, 2024 at 4:09 pm I recommend using MiniConda to create environments. This isolates changes made in one environment to that environment. Whenever I start something new, like ComfyUI, StableDiffusion, Automatic1111, I install it and then create the requirements file. If the environment tanks, I can recreate the original state from the requirements file. Note: I could “copy” the env, but they can be quite large. Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,53,faq,"63 comments
+Well, I actually tried three previous versions, as well as some driver upgrades/reversions, but that does not seem to have been the issue. The second (and subsequent) generations are exponentially slower than the first, and despite my best efforts, I cannot sort out the problem. folks with much more powerful cards have been reporting this issue as well, so it’s very strange. Thank you for your replies, though I think I’m out of options other than going to a paid site. A new rig is out of the question.
+
+63 comments
+ZeroKewl says: January 7, 2024 at 4:09 pm I recommend using MiniConda to create environments. This isolates changes made in one environment to that environment. Whenever I start something new, like ComfyUI, StableDiffusion, Automatic1111, I install it and then create the requirements file. If the environment tanks, I can recreate the original state from the requirements file. Note: I could “copy” the env, but they can be quite large. Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,54,faq,"63 comments
+I recommend using MiniConda to create environments. This isolates changes made in one environment to that environment. Whenever I start something new, like ComfyUI, StableDiffusion, Automatic1111, I install it and then create the requirements file. If the environment tanks, I can recreate the original state from the requirements file. Note: I could “copy” the env, but they can be quite large."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,55,faq,63 comments
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,56,faq,"Tru says: September 6, 2023 at 3:22 pm Hello Andrew – Are you aware of any updates to automatic1111 that would cause an increase in memory requirement and generate an OOM error? I’m using a laptop with a local installation and a NVIDIA GeForce GTX 1050 with 3G of memory. It’s measly I know, but has been generating fine forever as long as I’m not inpainting or using ControlNet. Today, however, it’s throwing OOM errors after only one generation! This seems spontaneous, and I can’t sort out why or what has changed. It was fine yesterday. Any ideas would be greatly appreciated! Thank you! Reply Andrew says: September 7, 2023 at 6:54 am The software and extension are constantly updated. But if you don’t update them (git pull), they should stay the same. You can revert back to an earlier version if update was the problem. Reply ZeroKewl says: January 7, 2024 at 4:11 pm When you launch, look at the command line output or logs"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,57,faq,". They do update automatically and this is where you can figure it out. This is also where you can see WHAT is running OOM. Example is, does the model load but refiner / upscaler fail? Also, if you change the size of the image, you can run out. Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,58,faq,"63 comments
+Are you aware of any updates to automatic1111 that would cause an increase in memory requirement and generate an OOM error? I’m using a laptop with a local installation and a NVIDIA GeForce GTX 1050 with 3G of memory. It’s measly I know, but has been generating fine forever as long as I’m not inpainting or using ControlNet. Today, however, it’s throwing OOM errors after only one generation! This seems spontaneous, and I can’t sort out why or what has changed. It was fine yesterday. Any ideas would be greatly appreciated!
+
+63 comments
+Andrew says: September 7, 2023 at 6:54 am The software and extension are constantly updated. But if you don’t update them (git pull), they should stay the same. You can revert back to an earlier version if update was the problem. Reply
+
+63 comments
+The software and extension are constantly updated. But if you don’t update them (git pull), they should stay the same."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,59,faq,"63 comments
+You can revert back to an earlier version if update was the problem.
+
+63 comments
+ZeroKewl says: January 7, 2024 at 4:11 pm When you launch, look at the command line output or logs. They do update automatically and this is where you can figure it out. This is also where you can see WHAT is running OOM. Example is, does the model load but refiner / upscaler fail? Also, if you change the size of the image, you can run out. Reply
+
+63 comments
+When you launch, look at the command line output or logs. They do update automatically and this is where you can figure it out. This is also where you can see WHAT is running OOM. Example is, does the model load but refiner / upscaler fail? Also, if you change the size of the image, you can run out."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,60,faq,63 comments
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,61,faq,"Spirograph12 says: September 1, 2023 at 7:55 pm As a senior on benefits, I really appreciated the old demo, which used to be good, based on Gradio and HuggingFace. The new demo (based on Graviti Diffus) is very limited, and falsely triggers NSFW warning from this innocent, artistic prompt: “An abstract impressionist painting by Monet and Pissarro, highly expressive brush strokes. Subject is a winter snow scene. (Madonna Joan Baez is cradling Jesus). Medium view. Perfect anatomy, perfect hands. Natural human faces. Detailed faces. Blurred background is Central Park in a snowstorm. Textured paint, canvas texture, abstract, expressive.” No indication is given as to what word(s) are NSFW. Please bring back the old demo, and if using an NSFW filter, make it reasonable. In my prompt for an impressionist painting, SD 1.5 model, I’m asking for “Perfect anatomy, perfect hands. Natural human faces"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,62,faq,".5 model, I’m asking for “Perfect anatomy, perfect hands. Natural human faces.” Why is that NSFW? Especially since NSFW is in the negative prompt… Reply Andrew says: September 2, 2023 at 9:29 am Thanks for the feedback. The original generator is costly to run. I have to find an alternative. Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,63,faq,"63 comments
+As a senior on benefits, I really appreciated the old demo, which used to be good, based on Gradio and HuggingFace. The new demo (based on Graviti Diffus) is very limited, and falsely triggers NSFW warning from this innocent, artistic prompt:
+
+63 comments
+“An abstract impressionist painting by Monet and Pissarro, highly expressive brush strokes. Subject is a winter snow scene. (Madonna Joan Baez is cradling Jesus). Medium view. Perfect anatomy, perfect hands. Natural human faces. Detailed faces. Blurred background is Central Park in a snowstorm. Textured paint, canvas texture, abstract, expressive.”
+
+63 comments
+No indication is given as to what word(s) are NSFW. Please bring back the old demo, and if using an NSFW filter, make it reasonable. In my prompt for an impressionist painting, SD 1.5 model, I’m asking for “Perfect anatomy, perfect hands. Natural human faces.” Why is that NSFW? Especially since NSFW is in the negative prompt…"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,64,faq,"63 comments
+Andrew says: September 2, 2023 at 9:29 am Thanks for the feedback. The original generator is costly to run. I have to find an alternative. Reply
+
+63 comments
+Thanks for the feedback. The original generator is costly to run. I have to find an alternative.
+
+63 comments
+Chase Alessandro says: August 15, 2023 at 2:12 am Thank you so much! Amazing. Reply
+
+63 comments
+Daniel says: June 27, 2023 at 9:40 pm Can I use 2.1 on mac M2? Reply Andrew says: June 28, 2023 at 10:14 pm Yes, it is supported. Reply
+
+63 comments
+Andrew says: June 28, 2023 at 10:14 pm Yes, it is supported. Reply
+
+63 comments
+Best AI development tools says: June 26, 2023 at 3:17 am This blog offers a detailed and simple overview of the fascinating field of stable diffusion art. This explains the concept to guiding readers and process, it offers a valuable information about artistic technique. They give step-by-step tips and instructions with visual examples, fantastic post. Keep sharing! Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,65,faq,"63 comments
+This blog offers a detailed and simple overview of the fascinating field of stable diffusion art. This explains the concept to guiding readers and process, it offers a valuable information about artistic technique. They give step-by-step tips and instructions with visual examples, fantastic post. Keep sharing!
+
+63 comments
+Frank D. says: June 24, 2023 at 1:29 pm Hi, There link to generate “realistic people” point to “realistic/” URL, but it should point to “https://stable-diffusion-art.com/realistic-human-street-portrait/” Great content and keep on going on this line! Reply Andrew says: June 25, 2023 at 3:59 am thanks! Reply
+
+63 comments
+There link to generate “realistic people” point to “realistic/” URL, but it should point to “https://stable-diffusion-art.com/realistic-human-street-portrait/”
+
+63 comments
+Great content and keep on going on this line!
+
+63 comments
+Andrew says: June 25, 2023 at 3:59 am thanks! Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,66,faq,"63 comments
+Andrew says: June 25, 2023 at 3:59 am thanks! Reply
+
+63 comments
+Oscall33 says: June 12, 2023 at 2:30 pm Amazing work, lots of content, well explained. Thank you very much for your work. <333 Reply
+
+63 comments
+Amazing work, lots of content, well explained. Thank you very much for your work. <333"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,67,faq,"63 comments
+Amazing work, lots of content, well explained. Thank you very much for your work. <333
+
+63 comments
+Chris says: June 8, 2023 at 11:01 am When I use the Google Collab (paid Pro) and I want directly upscale the image within the text to image generation with the high res fix, it starts generating the picture, and then it tries to upscale. Within this process, it completely messes up the generated image within the first second of upscaling, moving the face around (i.e. parts of the face are then located on the neck, or the mouth is messed up…). I use the normal ESGRAN upscaler, the settings in the high res fix are denoising strength of 0.2 to 0.3. Tried steps set to zero, or 50. Does not make a difference. On other solutions like EasyDiffusion (runs locally on the PC), it works flawlessly. Anyone knows how to fix this? Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,68,faq,"63 comments
+When I use the Google Collab (paid Pro) and I want directly upscale the image within the text to image generation with the high res fix, it starts generating the picture, and then it tries to upscale. Within this process, it completely messes up the generated image within the first second of upscaling, moving the face around (i.e. parts of the face are then located on the neck, or the mouth is messed up…). I use the normal ESGRAN upscaler, the settings in the high res fix are denoising strength of 0.2 to 0.3. Tried steps set to zero, or 50. Does not make a difference.
+
+63 comments
+On other solutions like EasyDiffusion (runs locally on the PC), it works flawlessly."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,69,faq,"63 comments
+On other solutions like EasyDiffusion (runs locally on the PC), it works flawlessly.
+
+63 comments
+Revu Music says: June 6, 2023 at 12:52 pm i wish you to buy you a mcdonalds for you, but poorly i am still a student and cant afford even a penny for google collab thing. all i can is wish for you. and thank you very much for the explanation Reply Andrew says: June 7, 2023 at 6:34 am One of the best things for me is people find this website useful. So thanks for taking the time to tell me! Reply
+
+63 comments
+i wish you to buy you a mcdonalds for you, but poorly i am still a student and cant afford even a penny for google collab thing. all i can is wish for you. and thank you very much for the explanation
+
+63 comments
+Andrew says: June 7, 2023 at 6:34 am One of the best things for me is people find this website useful. So thanks for taking the time to tell me! Reply"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,70,faq,"63 comments
+One of the best things for me is people find this website useful. So thanks for taking the time to tell me!
+
+63 comments
+Peotor says: May 12, 2023 at 6:49 am AMAZING! Reply
+
+63 comments
+Vinchou says: May 10, 2023 at 3:47 pm Really, those are the comments…?! This series of articles are just AMAZING!!! Thank you so much, you rock! Reply Andrew says: May 11, 2023 at 6:50 am You are welcome! Reply
+
+63 comments
+Really, those are the comments…?! This series of articles are just AMAZING!!! Thank you so much, you rock!
+
+63 comments
+Andrew says: May 11, 2023 at 6:50 am You are welcome! Reply
+
+63 comments
+woshitoutouge says: April 26, 2023 at 5:43 am such great article for beginners! Reply
+
+63 comments
+such great article for beginners!"
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,71,faq,"63 comments
+such great article for beginners!
+
+63 comments
+Kevin T. says: April 3, 2023 at 4:05 pm “Rule of thumbs of building good prompts” should be: “Rules of thumb of building good prompts” Reply Andrew says: April 3, 2023 at 5:54 pm All good suggestions. Thank you! Reply Dave says: April 6, 2023 at 10:16 am Actually, it should be “Rules Of Thumb For Building Good Prompts”. “Of” doesn’t make sense here. Reply
+
+63 comments
+“Rule of thumbs of building good prompts”
+
+63 comments
+“Rules of thumb of building good prompts”
+
+63 comments
+Andrew says: April 3, 2023 at 5:54 pm All good suggestions. Thank you! Reply
+
+63 comments
+All good suggestions. Thank you!
+
+63 comments
+Dave says: April 6, 2023 at 10:16 am Actually, it should be “Rules Of Thumb For Building Good Prompts”. “Of” doesn’t make sense here. Reply
+
+63 comments
+Actually, it should be “Rules Of Thumb For Building Good Prompts”. “Of” doesn’t make sense here."
+https://stable-diffusion-art.com/beginners-guide/,How to use Stable Diffusion - Stable Diffusion Art,72,faq,"63 comments
+Kevin T. says: April 3, 2023 at 4:03 pm “Only Sky is the limit. Here are some examples.” should be: “The sky’s the limit! Here are some examples.” Reply
+
+63 comments
+“Only Sky is the limit. Here are some examples.”
+
+63 comments
+“The sky’s the limit! Here are some examples.”
+
+Leave a comment Cancel reply
+Your email address will not be published. Required fields are marked *
+
+Leave a comment Cancel reply
+Notify me via e-mail if anyone answers my comment.
+
+Leave a comment Cancel reply
+Notify me of new posts by email.
+
+Post navigation
+Top Free Stable Diffusion and Flux AI image generator sites
+
+Post navigation
+Get weekly updates on tutorials and workflows.
+
+Latest Articles
+Speeding up Hunyuan Video 3x with Teacache
+
+Latest Articles
+How to speed up Wan 2.1 Video with Teacache and Sage Attention
+
+Latest Articles
+Prompt Generator for Stable Diffusion"

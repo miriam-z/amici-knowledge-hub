@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python environment variables
+.env
+.env.*
+
+# Chainlit auto-generated files
+.chainlit/config.toml
+.chainlit/translations/
+.chainlit/chainlit.md
+.chainlit/chainlit.lock
+.chainlit/cache/
+
+# Local cache / logs / debug
+*.log
+*.cache
+.cache/
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints (if you ever use)
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# VSCode settings (optional)
+.vscode/
+
+# Python egg metadata
+*.egg-info/
+
+# Pipenv
+Pipfile.lock
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# Test output
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Mac system files
+Icon?
+
+# Chainlit public build (optional)
+public/build/

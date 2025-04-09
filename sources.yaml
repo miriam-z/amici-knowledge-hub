@@ -1,0 +1,23 @@
+- url: https://stable-diffusion-art.com/beginners-guide/
+  type: faq
+  name: stable_diffusion_qna
+
+- url: https://en.wikipedia.org/wiki/Stable_Diffusion
+  type: wiki
+  name: wiki_stable_diffusion
+
+- url: https://en.wikipedia.org/wiki/Midjourney
+  type: wiki
+  name: wiki_midjourney
+
+- url: https://www.gov.uk/government/consultations/copyright-and-artificial-intelligence/copyright-and-artificial-intelligence
+  type: gov
+  name: gov_ai_copyright
+
+- url: https://arxiv.org/html/2404.16038v1
+  type: research
+  name: arxiv_2404_16038
+
+- url: https://arxiv.org/html/2502.16153v1
+  type: research
+  name: arxiv_2502_16153
